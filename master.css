@@ -22,7 +22,7 @@ display: none;
   position: sticky;
   top: 0%;
   z-index: 999;
-  border-color: #f3f4f6;
+  background-color: #f3f4f6;
   box-shadow: 0 0 14px rgba(0, 0, 0, 0.3);
 }
 
