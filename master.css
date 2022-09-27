@@ -116,7 +116,7 @@ display: none;
 }
 
 .products .card img{
-  height: 120px;
+  height: 110px;
   width: 100%;
 }
 
@@ -127,7 +127,7 @@ display: none;
 
 .products .card .title{
   font-weight: 900;
-  font-size: 17px;
+  font-size: 15px;
   color: #424144;
   padding: 0 20px;
 }
