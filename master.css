@@ -63,7 +63,8 @@ display: none;
 
 
 .content{
-  background-image: url(ot.jpg);
+  background: #fafafa;
+  background-image: url(.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   padding: 0 5%;
@@ -72,7 +73,7 @@ display: none;
   justify-content: center;
   align-items: flex-start;
   color: #424144;
-  height: 100vh;
+  height: 50vh;
 }
 
 .content p{
@@ -116,8 +117,8 @@ display: none;
 }
 
 .products .card img{
-  height: 110px;
-  width: 100%;
+  height: 120px;
+  margin-left: 10%;
 }
 
 .products .card .desc{
@@ -127,7 +128,7 @@ display: none;
 
 .products .card .title{
   font-weight: 900;
-  font-size: 15px;
+  font-size: 17px;
   color: #424144;
   padding: 0 20px;
 }
