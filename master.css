@@ -73,7 +73,7 @@ display: none;
   justify-content: center;
   align-items: flex-start;
   color: #424144;
-  height: 50vh;
+  height: 100vh;
 }
 
 .content p{
@@ -162,7 +162,7 @@ color: white;
 }
 
 .footer {
-  padding: 40px 0;
+  padding: 35px 0;
   background-color: #f6f5f7;
 
 }
