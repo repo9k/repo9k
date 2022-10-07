@@ -161,69 +161,90 @@ cursor: pointer;background-color: #f63e4e;
 color: white;
 }
 
-.footer {
-  padding: 35px 0;
-  background-color: #f6f5f7;
+
+
+footer{
+  position: absolute;
+  left: 0;
+  right: 0;
+  background: #424144;
+  height: auto;
+  width: 100vw;
+  padding-top: 40px;
+  color: #fff;
 
 }
 
-.footer .social {
-  text-align: center;
-  padding-bottom: 25px;
-  color: #4b4c4d;
-}
-
-.footer .social a {
-  font-size: 24px;
-  color: inherit;
-  border: 1px solid #ccc;
-  width: 40px;
-  height: 40px;
-  line-height: 38px;
-  display: inline-block;
-  text-align: center;
-  border-radius: 50%;
-  margin: 0 8px;
-  opacity: 0.75;
-}
-
-.footer .social a:hover {
-  opacity: 0.9;
-}
-
-.footer ul {
-  margin-top: 0;
-  padding: 0;
-  list-style: none;
-  line-height: 1.6;
-  margin-bottom: 0;
+.footer-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   text-align: center;
 }
 
-.footer ul li a {
-  color: initial;
+
+.footer-content h3{
+font-size: 1.8rem;
+font-weight: 400;
+text-transform: capitalize;
+line-height: 3rem;
+}
+
+.footer-content p{
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+}
+
+
+.socials{
+list-style: none;
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 1rem 0 3rem 0;
+}
+
+.socials li{
+margin: 0 10px;
+}
+
+.socials a{
   text-decoration: none;
-  opacity: 0.8;
-
+  color: #fff;
 }
 
-.footer ul li {
-display: inline-block;
-padding: 0 15px;
+
+.socials a i{
+  font-size: 1.1rem;
+  transition: color .4s ease;
 }
 
-.footer ul li a:hover {
-  opacity: 1;
+.socials a:hover i{
+color: aqua;
 }
 
-.footer .copyright {
-  margin-top: 15px;
+.footer-bottom{
+  background: #000;
+  width: 100vw;
+  padding: 20px 0;
   text-align: center;
-  font-size: 15px;
-  color: #aaa;
 }
 
 
+.footer-bottom p{
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.footer-bottom span{
+  text-transform: uppercase;
+  opacity: .4;
+  font-weight: 200;
+}
 @media (max-width: 820px){
   .menu-btn{
     display: block;
