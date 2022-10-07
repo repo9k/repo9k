@@ -106,6 +106,7 @@ display: none;
 .products{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(165px, 1fr));
+  justify-items: center;
 }
 
 .products .card{
