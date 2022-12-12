@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>http://144.24.216.115/carx/CarX%20Street_0.7.2_1670842791.ipa</string>
+					<string>http://144.24.216.115/CarX%20Street_0.7.2_1670842791.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -35,7 +35,7 @@
 				<key>bundle-identifier</key>
 				<string>com.carxtech.sr</string>
 				<key>bundle-version</key>
-				<string>0.4.2</string>
+				<string>0.7.2</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>title</key>
