@@ -120,7 +120,13 @@ display: none;
 .products .card img{
   height: 130px;
   margin-left: 6%;
+  margin-bottom: 6%;
+  margin-top: 6%;
+  max-width: 86.5%; /* Added */
+  border-radius: 10px;
 }
+
+
 
 .products .card .desc{
   padding: 5px 20px;
